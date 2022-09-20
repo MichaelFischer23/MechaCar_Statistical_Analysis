@@ -1,6 +1,6 @@
 ## MechaCar_Statistical_Analysis
-### Study Design: MechaCAr vs Competition
-
+### Study Design: MechaCar vs Competition
+In order to determine if the Mechacar is superior to the competitiion their are multiple different tests that can be ran. Some important metrics that should be looked at in these statistical tests are cost, safety rating, and overall fuel effciency. I wouls use a t-test to determine if there is a statistical difference between the mechacar and its competitors. These t-tests would have a similar null hypothesis. The mechacar's (cost/safety rating/ overall fuel effciency) is not significantly different than its competitors. In order to run these tests you would need to have data for each of these categories for all of the competitors you are trying to compare.
 
 
 ### Results
@@ -21,13 +21,17 @@ The current manufacturing data does not meet the design specification in lot 3. 
 #### T-Tests on Suspension Coils
 ##### Suspension Coil T-Test
 ![whole ttest](https://user-images.githubusercontent.com/105613428/190868113-859da04c-956b-44fa-9902-81c2fa93dfba.PNG)
+
 A t-test ran on the entire suspension coil dataset.
 ##### Lot 1
 ![Lot 1 T-test](https://user-images.githubusercontent.com/105613428/190867404-a491acf9-388f-4fa0-b0f8-df8d926f7910.PNG)
+
 T-test ran on the first lot of the data. The p-value is above the significant level that was set and therefore can be used to reject the null hypothesis.
 ##### Lot 2
 ![lot 2 t-test](https://user-images.githubusercontent.com/105613428/190868668-d310f3b8-93d8-4486-a90a-743862f34f32.PNG)
+
 T-test ran on the second lot of the data. The p-value is above the significant level that was set and therefore can be used to reject the null hypothesis.
 ##### Lot 3
 ![lot 3 t-test](https://user-images.githubusercontent.com/105613428/190868711-119fc405-6b79-4fcd-9220-c586fb718c1d.PNG)
+
 T-test ran on the second lot of the data. The p-value is below the significant level that was set and therefore can be used to accept the null hypothesis.
